@@ -36,7 +36,7 @@ end
 
 def find_a(array)
   matches = array.select do |letter|
-    letter.include?("a")
+    letter.start_with?("a")
   end
   matches
 end

@@ -41,10 +41,10 @@ def find_a(array)
   matches
 end
 
-# def sum_array(array)
-#
-# end
-#
+def sum_array(array)
+  
+end
+
 # def add_s(array)
 #
 # end

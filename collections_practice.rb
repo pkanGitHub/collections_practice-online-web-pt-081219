@@ -42,11 +42,12 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject(0) do {|num, sum| num + sum}
-    array
+  result = array.inject(0) do {|sum, num| sum + num}
   end
+  result
 end
 
 # def add_s(array)
 #
 # end
+
